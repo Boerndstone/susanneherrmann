@@ -7,7 +7,6 @@ const links = [
   { href: '#angebote', label: 'Angebote' },
   { href: '#ueber-mich', label: 'Über mich' },
   { href: '#kurse', label: 'Kurse & Preise' },
-  { href: '#stimmen', label: 'Stimmen' },
 ]
 
 export function SiteHeader() {
