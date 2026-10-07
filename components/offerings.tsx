@@ -4,26 +4,26 @@ const offerings = [
   {
     title: 'Yoga',
     subtitle: 'Hatha & Yin',
-    image: '/images/yoga.png',
+    image: '/images/yoga.jpg',
     alt: 'Frau in einer ruhigen Yoga-Haltung im hellen Studio',
-    text: 'Fließende Haltungen, bewusster Atem und tiefe Entspannung. Für mehr Beweglichkeit, innere Ruhe und einen klaren Kopf.',
-    points: ['Gruppenkurse für alle Level', 'Yin Yoga & Meditation', 'Einzelstunden'],
+    text: 'Lorem ipsum....',
+    points: ['vhs Odelzhausen', 'Yoga - Einzelunterricht oder Kleingruppe', 'Yoga- & Pilatesretreat an der Costa Blanca, Spanien'],
   },
   {
     title: 'Pilates',
     subtitle: 'Matte & Kleingerät',
     image: '/images/pilates.png',
     alt: 'Frau bei einer Pilates-Übung mit kleinem Ball auf der Matte',
-    text: 'Gezieltes Training der Tiefenmuskulatur für einen starken Rücken, eine aufrechte Haltung und ein neues Körpergefühl.',
+    text: 'Lorem ipsum....',
     points: ['Rückenfit & Beckenboden', 'Kleine Gruppen bis 8 Personen', 'Rückbildung nach der Geburt'],
   },
   {
     title: 'Naturheilkunde',
     subtitle: 'Heilpraktikerin',
-    image: '/images/naturheilkunde.png',
+    image: '/images/naturheilkunde.jpg',
     alt: 'Getrocknete Heilkräuter, Ringelblumen und Tinkturfläschchen auf einem Steintisch',
-    text: 'Ganzheitliche Anamnese und sanfte, natürliche Therapien – abgestimmt auf Ihre individuelle Situation.',
-    points: ['Phytotherapie & Ernährung', 'Schröpfen & Akupressur', 'Stress- & Erschöpfungsbegleitung'],
+    text: 'Aktuell Hausbesuche. \n Abrechnung nach GebüH für Heilpraktiker für Privatversicherte und Zusatzversicherung für Heilpraktiker für Gesetzlichversicherte. \n Gutschein als Geschenk gerne möglich.',
+    points: ['Shiatsu- und Akupressurbehandlung', 'Craniosacraltherapie und Therapeutischer Dialog', 'Akupunkturbehandlung'],
   },
 ]
 
@@ -57,7 +57,7 @@ export function Offerings() {
                     {item.subtitle}
                   </span>
                 </div>
-                <p className="leading-relaxed text-muted-foreground">{item.text}</p>
+                <p className="leading-relaxed text-muted-foreground whitespace-pre-line">{item.text}</p>
                 <ul className="mt-1 flex flex-col gap-2">
                   {item.points.map((point) => (
                     <li key={point} className="flex items-center gap-3 text-sm text-foreground">

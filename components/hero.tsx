@@ -13,7 +13,7 @@ export function Hero() {
             className="animate-rise font-serif text-5xl leading-[1.02] tracking-tight text-balance text-foreground md:text-7xl"
             style={{ animationDelay: '120ms' }}
           >
-            Bewegung, Atem und die <em className="text-primary">Kraft der Natur</em>.
+            Lorem ipsum dolor <em className="text-primary">Lorem ipsum dolor</em>.
           </h1>
           <p
             className="animate-rise max-w-lg text-lg leading-relaxed text-muted-foreground text-pretty"
@@ -52,10 +52,10 @@ export function Hero() {
               className="object-cover"
             />
           </div>
-          <div className="absolute -bottom-6 left-4 flex items-center gap-3 rounded-full bg-background px-5 py-3 shadow-sm ring-1 ring-border md:-left-10">
+          {/* <div className="absolute -bottom-6 left-4 flex items-center gap-3 rounded-full bg-background px-5 py-3 shadow-sm ring-1 ring-border md:-left-10">
             <span className="size-2.5 rounded-full bg-accent" aria-hidden="true" />
             <span className="text-sm text-foreground">Neue Kurse ab Oktober</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
