@@ -7,8 +7,8 @@ const details = [
     value: 'Wiesenweg 12, 79098 Freiburg',
     href: 'https://maps.google.com/?q=Wiesenweg+12+79098+Freiburg',
   },
-  { icon: Phone, label: 'Telefon', value: '+49 761 123 456 7', href: 'tel:+497611234567' },
-  { icon: Mail, label: 'E-Mail', value: 'hallo@lena-hoffmann.de', href: 'mailto:hallo@lena-hoffmann.de' },
+  { icon: Phone, label: 'Telefon', value: '+49 17616120801', href: 'tel:+4917616120801' },
+  { icon: Mail, label: 'E-Mail', value: 'susanne.sittenbach@gmx.de', href: 'mailto:susanne.sittenbach@gmx.de' },
   { icon: Clock, label: 'Praxiszeiten', value: 'Mo – Fr, 9 – 18 Uhr nach Vereinbarung' },
 ]
 
@@ -27,13 +27,13 @@ export function Contact() {
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
             <a
-              href="mailto:hallo@lena-hoffmann.de?subject=Terminanfrage"
+              href="mailto:susanne.sittenbach@gmx.de?subject=Terminanfrage"
               className="rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
             >
               E-Mail schreiben
             </a>
             <a
-              href="tel:+497611234567"
+              href="tel:+4917616120801"
               className="rounded-full px-7 py-3.5 text-sm font-medium text-foreground ring-1 ring-foreground/30 transition-colors hover:bg-background"
             >
               Anrufen
