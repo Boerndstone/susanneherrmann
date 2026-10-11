@@ -44,16 +44,18 @@ export function Contact() {
               href="mailto:susanne.sittenbach@gmx.de?subject=Terminanfrage"
               className="flex items-center rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
             >
-              <Mail className="size-4 me-2" /> E-Mail
+              E-Mail
             </a>
             <a
               href="tel:+4917616120801"
               className="flex items-center rounded-full px-7 py-3.5 text-sm font-medium text-foreground ring-1 ring-foreground/30 transition-colors hover:bg-background"
             >
-              <Phone className="size-4 me-2" /> Anrufen
+              Anrufen
             </a>
             <a
-              href="tel:+4917616120801"
+              href="https://wa.me/4917616120801"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center rounded-full px-7 py-3.5 text-sm font-medium text-foreground ring-1 ring-foreground/30 transition-colors hover:bg-background"
             >
               WhatsApp

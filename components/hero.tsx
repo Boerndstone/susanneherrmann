@@ -13,20 +13,26 @@ export function Hero() {
             className="animate-rise font-serif text-5xl leading-[1.02] tracking-tight text-balance text-foreground md:text-7xl"
             style={{ animationDelay: '120ms' }}
           >
-            Lorem ipsum dolor <em className="text-primary">Lorem ipsum dolor</em>.
+            *bewege dich, <em className="text-primary">atme und sei du selbst*</em>.
           </h1>
           <p
             className="animate-rise max-w-lg text-lg leading-relaxed text-muted-foreground text-pretty"
             style={{ animationDelay: '240ms' }}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vero veritatis pariatur! Nobis deserunt incidunt dolores et omnis eaque impedit aliquid, facilis, sint beatae pariatur cumque labore? Quasi, nostrum accusantium.
+            Die bewusste Bewegung und die richtige Atmung sind ein wertvolles Hilfsmittel zu sich selbst zu finden, in Kontakt mit sich selbst zu kommen. <br />Yoga, Pilates, Journaling und heilpraktische Behandlungen als Wohlfühlen und Entspannen oder als tiefgreifende ganzheitliche Therapie sind für jeden Menschen in jeder Lebenslage ein bedeutende Unterstützung gut für sich zu sorgen oder sich auf den Weg zur ganzheitlichen Gesundung zu begeben.
+          </p>
+          <p
+            className="animate-rise max-w-lg text-lg leading-relaxed text-muted-foreground text-pretty"
+            style={{ animationDelay: '240ms' }}
+          >
+            Ich freue mich auf Sie. <br /><i>Susanne Herrmann</i>
           </p>
           <div className="animate-rise flex flex-wrap items-center gap-4" style={{ animationDelay: '360ms' }}>
             <a
               href="#kontakt"
               className="rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
             >
-              Erstgespräch vereinbaren
+              Termin vereinbaren 
             </a>
             <a
               href="#angebote"
