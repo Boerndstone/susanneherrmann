@@ -3,13 +3,25 @@ import { Mail, MapPin, Phone, Clock } from 'lucide-react'
 const details = [
   {
     icon: MapPin,
-    label: 'Praxis & Studio',
-    value: 'Wiesenweg 12, 79098 Freiburg',
-    href: 'https://maps.google.com/?q=Wiesenweg+12+79098+Freiburg',
+    label: 'Praxis & Yogaretreat',
+    value: <>
+      Nelkenweg 4b, 85235 Sittenbach
+      <br />
+      Beach & Golf Resort Oliva Nova, 46780 Oliva, Valencia
+    </>,
+    href: '#',
   },
   { icon: Phone, label: 'Telefon', value: '+49 17616120801', href: 'tel:+4917616120801' },
   { icon: Mail, label: 'E-Mail', value: 'susanne.sittenbach@gmx.de', href: 'mailto:susanne.sittenbach@gmx.de' },
-  { icon: Clock, label: 'Praxiszeiten', value: 'Mo – Fr, 9 – 18 Uhr nach Vereinbarung' },
+  {
+    icon: Clock,
+    label: 'Praxiszeiten',
+    value: <>
+      Mo - Fr, 07:00 - 20:00 Uhr nach Vereinbarung
+      <br />
+      Sa, 08:00 - 14:00 Uhr nach Vereinbarung
+    </>,
+  },
 ]
 
 export function Contact() {
@@ -22,21 +34,29 @@ export function Contact() {
             Lassen Sie uns sprechen.
           </h2>
           <p className="max-w-md text-lg leading-relaxed text-muted-foreground text-pretty">
-            Ob Probestunde, Einzeltermin oder naturheilkundliches Erstgespräch – schreiben Sie mir
-            oder rufen Sie an. Ich melde mich innerhalb von zwei Werktagen.
+            Ob Probestunde, Einzeltermin, Yoga- und Pilatesretreat mit/ohne Golf oder heilpraktische Behandlung - schreiben Sie mir oder rufen Sie mich an.
+          </p>
+          <p className="max-w-md text-lg leading-relaxed text-muted-foreground text-pretty">
+            Ich melde mich umgehend bei Ihnen.
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
             <a
               href="mailto:susanne.sittenbach@gmx.de?subject=Terminanfrage"
-              className="rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+              className="flex items-center rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
             >
-              E-Mail schreiben
+              <Mail className="size-4 me-2" /> E-Mail
             </a>
             <a
               href="tel:+4917616120801"
-              className="rounded-full px-7 py-3.5 text-sm font-medium text-foreground ring-1 ring-foreground/30 transition-colors hover:bg-background"
+              className="flex items-center rounded-full px-7 py-3.5 text-sm font-medium text-foreground ring-1 ring-foreground/30 transition-colors hover:bg-background"
             >
-              Anrufen
+              <Phone className="size-4 me-2" /> Anrufen
+            </a>
+            <a
+              href="tel:+4917616120801"
+              className="flex items-center rounded-full px-7 py-3.5 text-sm font-medium text-foreground ring-1 ring-foreground/30 transition-colors hover:bg-background"
+            >
+              WhatsApp
             </a>
           </div>
         </div>
