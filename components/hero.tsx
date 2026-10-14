@@ -50,7 +50,7 @@ export function Hero() {
             style={{ animationDelay: '200ms' }}
           >
             <Image
-              src="/images/portrait.jpg"
+              src="/images/portraitNeu.jpg"
               alt="Susanne Herrmann – Yogalehrerin und Heilpraktikerin"
               fill
               priority
