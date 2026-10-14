@@ -1,10 +1,12 @@
 import Image from 'next/image'
 
 const credentials = [
-  { year: '2024', label: 'Zertifizierung Yin Yoga & Faszien' },
-  { year: '2019', label: 'Pilates-Trainerin (Matte & Kleingerät)' },
-  { year: '2017', label: 'Heilpraktikerin, Erlaubnis nach HeilprG' },
-  { year: '2014', label: 'Yogalehrerin, 500 h (BDY-anerkannt)' },
+  { year: '2007', label: 'Craniosacraltherapeutin, Therapeutischer Dialog' },
+  { year: '2000', label: 'Traditionelle Chinesische Medizin' },
+  { year: '1999', label: 'Shiatsu- und Akupressurtherapeutin' },
+  { year: '1999', label: 'Heilpraktikerin' },
+  { year: '1999', label: 'Yogalehrerin' },
+  { year: '1992', label: 'staatlich anerkannte Erzieherin' },
 ]
 
 export function About() {
@@ -14,8 +16,8 @@ export function About() {
         <div className="md:col-span-5">
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-muted md:sticky md:top-28">
             <Image
-              src="/images/praxis.png"
-              alt="Heller Praxis- und Yogaraum mit Holzboden, Matten und Olivenbaum"
+              src="/images/uebermich.jpg"
+              alt="Über Mich Susanne Herrmann"
               fill
               sizes="(min-width: 768px) 40vw, 100vw"
               className="object-cover"

@@ -12,8 +12,8 @@ const offerings = [
   {
     title: 'Pilates',
     subtitle: 'Matte & Kleingerät',
-    image: '/images/pilates.png',
-    alt: 'Frau bei einer Pilates-Übung mit kleinem Ball auf der Matte',
+    image: '/images/yoga-und-pilates.jpg',
+    alt: 'Yoga und Pilates',
     text: 'Lorem ipsum....',
     points: ['Rückenfit & Beckenboden', 'Kleine Gruppen bis 8 Personen', 'Rückbildung nach der Geburt'],
   },
