@@ -1,4 +1,12 @@
+"use client";
+
+import React, { useState } from "react";
+import { LegalModal } from "@/components/modals/legal-modal";
+
 export function SiteFooter() {
+
+  const [activeModal, setActiveModal] = useState<"impressum" | "datenschutz" | null>(null);
+
   return (
     <footer className="bg-foreground text-background">
       <div className="mx-auto flex max-w-6xl flex-col gap-10 px-5 py-14 md:flex-row md:items-end md:justify-between md:px-8">
@@ -8,16 +16,47 @@ export function SiteFooter() {
         </div>
         <div className="flex flex-col gap-4 text-sm text-background/65 md:items-end">
           <nav aria-label="Rechtliches" className="flex gap-6">
-            <a href="#" className="hover:text-background">
+            {/* Impressum Link */}
+            <button 
+              onClick={() => setActiveModal("impressum")}
+              className="hover:underline hover:text-background hover:cursor-pointer"
+            >
               Impressum
-            </a>
-            <a href="#" className="hover:text-background">
+            </button>
+
+            {/* Datenschutz Link */}
+            <button 
+              onClick={() => setActiveModal("datenschutz")}
+              className="hover:underline hover:text-background hover:cursor-pointer"
+            >
               Datenschutz
-            </a>
+            </button>
           </nav>
           <p>{`© ${new Date().getFullYear()} Susanne Herrmann. Alle Rechte vorbehalten.`}</p>
         </div>
       </div>
+      {/* Impressum Modal */}
+      <LegalModal
+        isOpen={activeModal === "impressum"}
+        onClose={() => setActiveModal(null)}
+        title="Impressum"
+      >
+        <p><strong>Name:</strong> Susanne Herrmann</p>
+        <p><strong>Adresse:</strong> Musterstraße 1, 12345 Stadt</p>
+        <p><strong>Kontakt:</strong> info@example.com</p>
+        {/* Add more legal details here */}
+      </LegalModal>
+
+      {/* Datenschutz Modal */}
+      <LegalModal
+        isOpen={activeModal === "datenschutz"}
+        onClose={() => setActiveModal(null)}
+        title="Datenschutz"
+      >
+        <p>Wir legen großen Wert auf den Schutz Ihrer Daten.</p>
+        <p className="mt-2">Hier finden Sie alle Informationen zur Verarbeitung Ihrer personenbezogenen Daten...</p>
+        {/* Add more privacy details here */}
+      </LegalModal>
     </footer>
   )
 }

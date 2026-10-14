@@ -26,21 +26,21 @@ export function About() {
         </div>
 
         <div className="flex flex-col gap-8 md:col-span-7">
-          <p className="text-xs uppercase tracking-[0.25em] text-primary">Über mich</p>
+          <p className="text-xs uppercase tracking-[0.25em] text-primary">Susanne Herrmann</p>
           <h2 className="font-serif text-4xl leading-tight tracking-tight text-balance md:text-5xl">
-            Hallo, ich bin Susanne.
+            YOGALEHRERIN UND HEILPRAKTIKERIN
           </h2>
           <div className="flex flex-col gap-5 text-lg leading-relaxed text-muted-foreground">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti omnis qui cum repellat, totam unde consectetur odit excepturi harum consequuntur nostrum laudantium est et, molestias id maiores doloremque? Magnam, saepe.
+              Bewege dich achtsam, atme und entspanne - sei du selbst
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti omnis qui cum repellat, totam unde consectetur odit excepturi harum consequuntur nostrum laudantium est et, molestias id maiores doloremque? Magnam, saepe.
+              Bewußte und achtsame Bewegung, richtige Atmung und Entspannung sind wertvolle Hilfen in Kontakt mit sich selbst zu kommen, sich selbst zu finden. Ergänzend durch Journaling und heilpraktische Behandlungstherapien wird der Mensch in jeder Lebenslage unterstützt und trägt zu seiner eigenen Gesundheitsvorsorge bei oder begibt sich auf den Weg zur ganzheitlichen Gesundung.
             </p>
           </div>
 
           <blockquote className="border-l-2 border-accent py-1 pl-6 font-serif text-2xl leading-snug text-foreground text-pretty">
-            {'„Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti omnis qui cum repellat, totam unde consectetur“'}
+            {'„Ich freue mich auf Sie.“'}<br />{'Ihre Susanne Herrmann'}
           </blockquote>
 
           <div className="mt-4">
