@@ -41,10 +41,17 @@ export function SiteFooter() {
         onClose={() => setActiveModal(null)}
         title="Impressum"
       >
-        <p><strong>Name:</strong> Susanne Herrmann</p>
-        <p><strong>Adresse:</strong> Musterstraße 1, 12345 Stadt</p>
-        <p><strong>Kontakt:</strong> info@example.com</p>
-        {/* Add more legal details here */}
+        <p><strong>Copyright:</strong> © 2026 www.susanneherrmann.de</p>
+        <p>Alle Rechte vorbehalten.</p>
+        <p className="mt-2"><strong>Inhaltlich verantwortlich gemäß § 6 MDStV:</strong></p>
+        <p>Susanne Herrmann</p>
+        <p>Nelkenweg 4b</p>
+        <p>85235 Sittenbach</p>
+        <p>susanne.sittenbach@gmx.com</p>
+        <p className="mt-2"><strong>Konzeption und Design:</strong></p>
+        <p>Bernd Ullmann</p>
+        <p className="mt-2"><strong>Technische Umsetzung:</strong></p>
+        <p>Bernd Ullmann | <a href="https://www.berndullmann.de" target="_blank" rel="noopener noreferrer" className="hover:underline">www.berndullmann.de</a></p>
       </LegalModal>
 
       {/* Datenschutz Modal */}

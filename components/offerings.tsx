@@ -2,28 +2,25 @@ import Image from 'next/image'
 
 const offerings = [
   {
-    title: 'Yoga',
-    subtitle: 'Hatha & Yin',
+    title: 'Yoga & Pilates',
     image: '/images/yoga.jpg',
     alt: 'Frau in einer ruhigen Yoga-Haltung im hellen Studio',
     text: 'Lorem ipsum....',
     points: ['vhs Odelzhausen', 'Yoga - Einzelunterricht oder Kleingruppe', 'Yoga- & Pilatesretreat an der Costa Blanca, Spanien'],
   },
   {
-    title: 'Pilates',
-    subtitle: 'Matte & Kleingerät',
-    image: '/images/yoga-und-pilates.jpg',
-    alt: 'Yoga und Pilates',
-    text: 'Lorem ipsum....',
-    points: ['Rückenfit & Beckenboden', 'Kleine Gruppen bis 8 Personen', 'Rückbildung nach der Geburt'],
-  },
-  {
     title: 'Naturheilkunde',
-    subtitle: 'Heilpraktikerin',
     image: '/images/naturheilkunde.jpg',
     alt: 'Getrocknete Heilkräuter, Ringelblumen und Tinkturfläschchen auf einem Steintisch',
     text: 'Aktuell Hausbesuche. \n Abrechnung nach GebüH für Heilpraktiker für Privatversicherte und Zusatzversicherung für Heilpraktiker für Gesetzlichversicherte. \n Gutschein als Geschenk gerne möglich.',
     points: ['Shiatsu- und Akupressurbehandlung', 'Craniosacraltherapie und Therapeutischer Dialog', 'Akupunkturbehandlung'],
+  },
+  {
+    title: 'Yoga & Pilates Retreat',
+    image: '/images/retreat.jpg',
+    alt: 'Yoga und Pilates',
+    text: 'Retreats in Oliva Nova, Costa Blanca',
+    points: ['Gehen am Sandstrand', 'Journaling', 'Zeit für Golf', 'Wanderungen in der Natur', 'direkter Zugang zu Sandstrand und Mittelmeer', 'individuelle Angebote'],
   },
 ]
 
@@ -34,7 +31,7 @@ export function Offerings() {
         <div className="flex flex-col gap-4 md:max-w-2xl">
           <p className="text-xs uppercase tracking-[0.25em] text-primary">Angebote</p>
           <h2 className="font-serif text-4xl leading-tight tracking-tight text-balance md:text-5xl">
-            Drei Wege, ein Ziel: Ihr Wohlbefinden.
+            !!!Hier sollte der Konsistenz halber eine Überschrift stehen!!!
           </h2>
         </div>
 
@@ -53,9 +50,6 @@ export function Offerings() {
               <div className="flex flex-col gap-3">
                 <div className="flex items-baseline justify-between gap-4 border-b border-border pb-3">
                   <h3 className="font-serif text-3xl text-foreground">{item.title}</h3>
-                  <span className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
-                    {item.subtitle}
-                  </span>
                 </div>
                 <p className="leading-relaxed text-muted-foreground whitespace-pre-line">{item.text}</p>
                 <ul className="mt-1 flex flex-col gap-2">

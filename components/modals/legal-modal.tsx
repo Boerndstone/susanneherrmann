@@ -22,9 +22,6 @@ export function LegalModal({ isOpen, onClose, title, children }: LegalModalProps
       <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle>{title}</DialogTitle>
-          <DialogDescription className="pt-2">
-            Please read the information below carefully.
-          </DialogDescription>
         </DialogHeader>
         <div className="py-4 text-sm leading-relaxed">
           {children}
