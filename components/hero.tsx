@@ -13,19 +13,19 @@ export function Hero() {
             className="animate-rise font-serif text-5xl leading-[1.02] tracking-tight text-balance text-foreground md:text-7xl"
             style={{ animationDelay: '120ms' }}
           >
-            *bewege dich, <em className="text-primary">atme und sei du selbst*</em>.
+            Zeit für sich. <em className="text-primary">Raum zum Durchatmen.</em>
           </h1>
           <p
             className="animate-rise max-w-lg text-lg leading-relaxed text-muted-foreground text-pretty"
             style={{ animationDelay: '240ms' }}
           >
-            Die bewusste Bewegung und die richtige Atmung sind ein wertvolles Hilfsmittel zu sich selbst zu finden, in Kontakt mit sich selbst zu kommen. <br />Yoga, Pilates, Journaling und heilpraktische Behandlungen als Wohlfühlen und Entspannen oder als tiefgreifende ganzheitliche Therapie sind für jeden Menschen in jeder Lebenslage ein bedeutende Unterstützung gut für sich zu sorgen oder sich auf den Weg zur ganzheitlichen Gesundung zu begeben.
+            Manchmal braucht es einen Moment der Ruhe, einen bewussten Atemzug oder eine sanfte Bewegung, um wieder bei sich selbst anzukommen. <br /><br />In meiner Arbeit als Yogalehrerin und Heilpraktikerin möchte ich Ihnen einen Raum schenken, in dem Sie innehalten, neue Kraft schöpfen und Ihre Gesundheit achtsam unterstützen können.<br /><br />Mit Yoga, bewusster Atmung und Entspannung sowie einer individuell auf Sie abgestimmten naturheilkundlichen Behandlung verbinde ich Bewegung, Achtsamkeit und therapeutische Begleitung.<br /><br />Dabei ist mir wichtig, den Menschen als Ganzes zu betrachten und ihn auf seinem persönlichen Weg zu mehr Wohlbefinden und Lebensqualität einfühlsam zu begleiten.<br /><br />Entdecken Sie, was Ihnen guttut. Stärken Sie Ihre Ressourcen. Finden Sie Ihre eigene Balance.
           </p>
           <p
             className="animate-rise max-w-lg text-lg leading-relaxed text-muted-foreground text-pretty"
             style={{ animationDelay: '240ms' }}
           >
-            Ich freue mich auf Sie. <br /><i>Susanne Herrmann</i>
+            Ich freue mich darauf, Sie kennenzulernen. <br /><i>Susanne Herrmann</i>
           </p>
           <div className="animate-rise flex flex-wrap items-center gap-4" style={{ animationDelay: '360ms' }}>
             <a
@@ -50,7 +50,7 @@ export function Hero() {
             style={{ animationDelay: '200ms' }}
           >
             <Image
-              src="/images/portraitNeu.jpg"
+              src="/images/portraitNeuNeu.jpg"
               alt="Susanne Herrmann – Yogalehrerin und Heilpraktikerin"
               fill
               priority

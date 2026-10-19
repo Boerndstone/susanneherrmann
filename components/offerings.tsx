@@ -5,7 +5,7 @@ const offerings = [
     title: 'Yoga & Pilates',
     image: '/images/yoga.jpg',
     alt: 'Frau in einer ruhigen Yoga-Haltung im hellen Studio',
-    text: 'Lorem ipsum....',
+    text: 'Bewege dich bewusst, finde neue Kraft und schenke deinem Körper und Geist wohltuende Momente der Ruhe und Entspannung.',
     points: ['vhs Odelzhausen', 'Yoga - Einzelunterricht oder Kleingruppe', 'Yoga- & Pilatesretreat an der Costa Blanca, Spanien'],
   },
   {
@@ -19,7 +19,7 @@ const offerings = [
     title: 'Yoga & Pilates Retreat',
     image: '/images/retreat.jpg',
     alt: 'Yoga und Pilates',
-    text: 'Retreats in Oliva Nova, Costa Blanca',
+    text: 'Ein geschützter Raum, in dem du zur Ruhe kommen kannst, neue Perspektiven entdecken und Bedürfnisse wahrnehmen darfst.',
     points: ['Gehen am Sandstrand', 'Journaling', 'Zeit für Golf', 'Wanderungen in der Natur', 'direkter Zugang zu Sandstrand und Mittelmeer', 'individuelle Angebote'],
   },
 ]
