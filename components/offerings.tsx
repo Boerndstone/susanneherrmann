@@ -31,7 +31,7 @@ export function Offerings() {
         <div className="flex flex-col gap-4 md:max-w-2xl">
           <p className="text-xs uppercase tracking-[0.25em] text-primary">Angebote</p>
           <h2 className="font-serif text-4xl leading-tight tracking-tight text-balance md:text-5xl">
-            So kann ich Dich unterstützen
+            Mit Achtsamkeit zurück zu Deiner inneren Balance
           </h2>
         </div>
 
