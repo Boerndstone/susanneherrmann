@@ -19,7 +19,9 @@ export function Hero() {
             className="animate-rise max-w-lg text-lg leading-relaxed text-muted-foreground text-pretty"
             style={{ animationDelay: '240ms' }}
           >
-            Manchmal braucht es einen Moment der Ruhe, einen bewussten Atemzug oder eine sanfte Bewegung, um wieder bei sich selbst anzukommen. <br /><br />In meiner Arbeit als Yogalehrerin und Heilpraktikerin möchte ich Ihnen einen Raum schenken, in dem Sie innehalten, neue Kraft schöpfen und Ihre Gesundheit achtsam unterstützen können.<br /><br />Mit Yoga, bewusster Atmung und Entspannung sowie einer individuell auf Sie abgestimmten naturheilkundlichen Behandlung verbinde ich Bewegung, Achtsamkeit und therapeutische Begleitung.<br /><br />Dabei ist mir wichtig, den Menschen als Ganzes zu betrachten und ihn auf seinem persönlichen Weg zu mehr Wohlbefinden und Lebensqualität einfühlsam zu begleiten.<br /><br />Entdecken Sie, was Ihnen guttut. Stärken Sie Ihre Ressourcen. Finden Sie Ihre eigene Balance.
+            Manchmal braucht es einen Moment der Ruhe, einen bewussten Atemzug oder eine sanfte Bewegung, um wieder bei sich selbst anzukommen. <br /><br />In meiner Arbeit als Yogalehrerin und Heilpraktikerin möchte ich Ihnen einen Raum schenken, in dem Sie innehalten, neue Kraft schöpfen und Ihre Gesundheit achtsam unterstützen können.<br /><br />
+            {/* Mit Yoga, bewusster Atmung und Entspannung sowie einer individuell auf Sie abgestimmten naturheilkundlichen Behandlung verbinde ich Bewegung, Achtsamkeit und therapeutische Begleitung.<br /><br />Dabei ist mir wichtig, den Menschen als Ganzes zu betrachten und ihn auf seinem persönlichen Weg zu mehr Wohlbefinden und Lebensqualität einfühlsam zu begleiten.<br /><br /> */}
+            Entdecken Sie, was Ihnen guttut. Stärken Sie Ihre Ressourcen. Finden Sie Ihre eigene Balance.
           </p>
           <p
             className="animate-rise max-w-lg text-lg leading-relaxed text-muted-foreground text-pretty"
