@@ -5,7 +5,7 @@ const offerings = [
     title: 'Yoga & Pilates',
     image: '/images/yoga.jpg',
     alt: 'Frau in einer ruhigen Yoga-Haltung im hellen Studio',
-    text: 'Bewege dich bewusst, finde neue Kraft und schenke deinem Körper und Geist wohltuende Momente der Ruhe und Entspannung.',
+    text: 'Bewege dich bewusst. Stärke Deine Muskulatur und schenke Deinem Geist wohltuende Entspannung.',
     points: ['vhs Odelzhausen', 'Yoga - Einzelunterricht oder Kleingruppe', 'Yoga- & Pilatesretreat an der Costa Blanca, Spanien'],
   },
   {
