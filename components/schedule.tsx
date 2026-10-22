@@ -1,6 +1,6 @@
 const offers = [
   {
-    title: 'Yoga- und/Pilates als Einzel- oder Kleingruppe in den eigenen Räumen',
+    title: 'Yoga & Pilates',
     details: '60 Minuten: 80 € / 90 Minuten: 120 €',
   },
   {
@@ -9,7 +9,7 @@ const offers = [
     note: 'Bei Personen mit Zusatzversicherung für Heilpraktiker und Privatversicherung werden die Kosten erstattet bzw. je nach Tarif bezuschusst. Rechnungsstellung nach GebüH für Heilpraktiker.',
   },
   {
-    title: 'Yoga- und/oder Pilatesretreats mit Natur, Golf & Kulinarik',
+    title: 'Yoga & Pilatesretreats mit Natur, Golf & Kulinarik',
     details: 'Ohne oder mit Unterkunft im Beach & Golf Hotel Oliva Nova, Appartement oder Villa – je nach Zeit und Geschmack im Oliva Nova Resort an der Costa Blana, Provinz Valencia. Preis auf Anfrage.',
   },
 ]
@@ -29,12 +29,14 @@ export function Schedule() {
           <h3 className="text-xs uppercase tracking-[0.25em] text-primary-foreground/70">Angebot</h3>
 
           <div className="mt-4 border-t border-primary-foreground/20 py-5">
-            <h4 className="font-serif text-lg">Yoga- und Pilateskurse über vhs Odelzhausen</h4>
+            <h4 className="font-serif text-lg">Yoga & Pilateskurse über vhs Odelzhausen</h4>
             <a
-              href="mailto:bildung@vhs-odelzhausen.de"
+              href="https://www.vhs-odelzhausen.de/ueber-uns/dozenten.html/A/lecturer/P/101/T/543-L-794/susanne+herrmann"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-1 inline-block text-sm text-accent underline-offset-4 hover:underline sm:text-base"
             >
-              bildung@vhs-odelzhausen.de
+              Kurse von Susanne Herrmann bei der VHS Odelzhausen entdecken
             </a>
             <p className="mt-3 text-sm leading-relaxed text-primary-foreground/70 sm:text-base">
               Dietenhausenerstrasse 17, 1. Stock
