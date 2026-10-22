@@ -6,13 +6,13 @@ const offerings = [
     image: '/images/yoga.jpg',
     alt: 'Frau in einer ruhigen Yoga-Haltung im hellen Studio',
     text: 'Bewege dich bewusst. Stärke Deine Muskulatur und schenke Deinem Geist wohltuende Entspannung und Ruhe.',
-    points: ['vhs Odelzhausen - Gruppenunterricht', 'Yoga - Einzelunterricht oder Kleingruppe', 'Yoga- & Pilatesretreat an der Costa Blanca, Spanien'],
+    points: ['vhs Odelzhausen - Gruppenunterricht', 'Yoga - Einzelunterricht oder Kleingruppe'],
   },
   {
     title: 'Naturheilkunde',
     image: '/images/naturheilkunde.jpg',
     alt: 'Getrocknete Heilkräuter, Ringelblumen und Tinkturfläschchen auf einem Steintisch',
-    text: 'Aktuell Hausbesuche. \n Abrechnung nach GebüH für Heilpraktiker für Privatversicherte und Zusatzversicherung für Heilpraktiker für Gesetzlichversicherte. \n Gutschein als Geschenk gerne möglich.',
+    text: 'Eine individuelle, ganzheitliche Behandlung, die deine Anliegen und dein ganzheitliches Wohlbefinden in den Mittelpunkt stellt.',
     points: ['Shiatsu- und Akupressurbehandlung', 'Craniosacraltherapie und Therapeutischer Dialog', 'Akupunkturbehandlung'],
   },
   {
@@ -31,7 +31,7 @@ export function Offerings() {
         <div className="flex flex-col gap-4 md:max-w-2xl">
           <p className="text-xs uppercase tracking-[0.25em] text-primary">Angebote</p>
           <h2 className="font-serif text-4xl leading-tight tracking-tight text-balance md:text-5xl">
-            Mit Achtsamkeit zurück zu Deiner inneren Balance
+            Achtsamkeit und innere Balance
           </h2>
         </div>
 
