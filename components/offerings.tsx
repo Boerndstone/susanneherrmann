@@ -5,7 +5,7 @@ const offerings = [
     title: 'Yoga & Pilates',
     image: '/images/yoga.jpg',
     alt: 'Frau in einer ruhigen Yoga-Haltung im hellen Studio',
-    text: 'Bewege dich bewusst. Stärke Deine Muskulatur und schenke Deinem Geist wohltuende Entspannung.',
+    text: 'Bewege dich bewusst. Stärke Deine Muskulatur und schenke Deinem Geist wohltuende Entspannung und Ruhe.',
     points: ['vhs Odelzhausen', 'Yoga - Einzelunterricht oder Kleingruppe', 'Yoga- & Pilatesretreat an der Costa Blanca, Spanien'],
   },
   {
@@ -31,7 +31,7 @@ export function Offerings() {
         <div className="flex flex-col gap-4 md:max-w-2xl">
           <p className="text-xs uppercase tracking-[0.25em] text-primary">Angebote</p>
           <h2 className="font-serif text-4xl leading-tight tracking-tight text-balance md:text-5xl">
-            !!!Hier sollte der Konsistenz halber eine Überschrift stehen!!!
+            So kann ich dich unterstützen
           </h2>
         </div>
 
