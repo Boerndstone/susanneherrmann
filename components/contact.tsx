@@ -17,9 +17,7 @@ const details = [
     icon: Clock,
     label: 'Praxiszeiten',
     value: <>
-      Mo - Fr, 07:00 - 20:00 Uhr nach Vereinbarung
-      <br />
-      Sa, 08:00 - 14:00 Uhr nach Vereinbarung
+      nach terminlicher Vereinbarung
     </>,
   },
 ]
@@ -34,7 +32,7 @@ export function Contact() {
             Lassen Sie uns sprechen.
           </h2>
           <p className="max-w-md text-lg leading-relaxed text-muted-foreground text-pretty">
-            Ob Probestunde, Einzeltermin, Yoga- und Pilatesretreat mit/ohne Golf oder heilpraktische Behandlung - schreiben Sie mir oder rufen Sie mich an.
+            Für jedes Angebot, schreiben Sie mir oder rufen Sie mich an.
           </p>
           <p className="max-w-md text-lg leading-relaxed text-muted-foreground text-pretty">
             Ich melde mich umgehend bei Ihnen.
