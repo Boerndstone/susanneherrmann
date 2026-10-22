@@ -20,7 +20,7 @@ const offerings = [
     image: '/images/retreat.jpg',
     alt: 'Yoga und Pilates',
     text: 'Ein geschützter Raum, in dem du zur Ruhe kommen kannst, neue Perspektiven entdecken und Bedürfnisse wahrnehmen darfst.',
-    points: ['Gehen am Sandstrand', 'Journaling', 'Zeit für Golf', 'Wanderungen in der Natur', 'direkter Zugang zu Sandstrand und Mittelmeer', 'individuelle Angebote'],
+    points: ['Yoga & Pilates', 'Stilles gehen am Sandstrand', 'Journaling', 'Zeit für sich', 'individuelle Angebote'],
   },
 ]
 
