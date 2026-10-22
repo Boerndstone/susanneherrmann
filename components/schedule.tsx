@@ -4,13 +4,9 @@ const offers = [
     details: '60 Minuten: 80 € / 90 Minuten: 120 €',
   },
   {
-    title: 'Naturheilkunde & Therapeutische Dialoge',
+    title: 'Naturheilkunde & Therapeutischer Dialog',
     details: '60 Minuten: 100 €',
     note: 'Bei Personen mit Zusatzversicherung für Heilpraktiker und Privatversicherung werden die Kosten erstattet bzw. je nach Tarif bezuschusst. Rechnungsstellung nach GebüH für Heilpraktiker.',
-  },
-  {
-    title: 'Yoga & Pilatesretreats mit Natur, Golf & Kulinarik',
-    details: 'Ohne oder mit Unterkunft im Beach & Golf Hotel Oliva Nova, Appartement oder Villa – je nach Zeit und Geschmack im Oliva Nova Resort an der Costa Blana, Provinz Valencia. Preis auf Anfrage.',
   },
 ]
 
@@ -56,6 +52,23 @@ export function Schedule() {
               </li>
             ))}
           </ul>
+
+          <div className="mt-4 border-t border-primary-foreground/20 py-5">
+            <h4 className="font-serif text-lg">Yoga & Pilatesretreats an der Costa Blanca, Spanien</h4>
+            <p
+              className="mt-3 text-sm leading-relaxed text-primary-foreground/70 sm:text-base"
+            >
+              Preis auf Anfrage
+            </p>
+            <a
+              href="https://www.olivanova.com/de"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-1 inline-block text-sm text-accent underline-offset-4 hover:underline sm:text-base"
+            >
+              https://www.olivanova.com/de
+            </a>
+          </div>
         </div>
       </div>
     </section>
