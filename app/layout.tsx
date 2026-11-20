@@ -16,10 +16,35 @@ const manrope = Manrope({
 })
 
 export const metadata: Metadata = {
-  title: 'Susanne Herrmann – Yogalehrerin und Heilpraktikerin',
+  title: 'Yoga, Pilates & Naturheilkunde in Odelzhausen | Susanne Herrmann',
   description:
-    'Yoga, Pilates und Naturheilkunde in Freiburg. Bewegung, Atem und ganzheitliche Begleitung für Körper und Geist – bei Susanne Herrmann, Heilpraktikerin.',
-  generator: 'v0.app',
+    'Yoga, Pilates und Naturheilkunde in Odelzhausen bei Dachau. Susanne Herrmann begleitet Sie mit Yogakursen, Shiatsu und Craniosacraltherapie.',
+  metadataBase: new URL('https://www.susanneherrmann.de/'),
+  alternates: {
+    canonical: 'https://www.susanneherrmann.de/',
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'de_DE',
+    siteName: 'Susanne Herrmann',
+    title: 'Susanne Herrmann – Yogalehrerin und Heilpraktikerin',
+    description:
+      'Yoga, Pilates und Naturheilkunde: Susanne Herrmann begleitet Sie mit achtsamer Bewegung und ganzheitlichen Behandlungen.',
+    url: 'https://www.susanneherrmann.de/',
+    images: [
+      {
+        url: 'https://www.susanneherrmann.de/images/portraitNeu.jpg',
+        alt: 'Susanne Herrmann – Yogalehrerin und Heilpraktikerin',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Susanne Herrmann – Yogalehrerin und Heilpraktikerin',
+    description:
+      'Yoga, Pilates und Naturheilkunde: Susanne Herrmann begleitet Sie mit achtsamer Bewegung und ganzheitlichen Behandlungen.',
+    images: ['https://www.susanneherrmann.de/images/portraitNeu.jpg'],
+  },
   icons: {
     icon: [
       {
@@ -44,6 +69,20 @@ export const viewport: Viewport = {
   themeColor: '#eff1eb',
 }
 
+const personJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  '@id': 'https://www.susanneherrmann.de/#susanne-herrmann',
+  name: 'Susanne Herrmann',
+  url: 'https://www.susanneherrmann.de/',
+  image: 'https://www.susanneherrmann.de/images/portraitNeu.jpg',
+  jobTitle: ['Yogalehrerin', 'Heilpraktikerin'],
+  description:
+    'Yogalehrerin und Heilpraktikerin mit Angeboten in Yoga, Pilates und Naturheilkunde.',
+  email: 'susanne.sittenbach@gmx.de',
+  telephone: '+49 176 16120801',
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -52,6 +91,12 @@ export default function RootLayout({
   return (
     <html lang="de" className={`${fraunces.variable} ${manrope.variable} bg-background`}>
       <body className="antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(personJsonLd).replace(/</g, '\\u003c'),
+          }}
+        />
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
